@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f1923"/>
+      <stop offset="50%" stop-color="#1a3a5c"/>
+      <stop offset="100%" stop-color="#2a5a8c"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8963e"/>
+      <stop offset="100%" stop-color="#dab06a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="4" y="4" width="112" height="112" rx="24" fill="url(#bg)"/>
+
+  <!-- Abstract Chinese pavilion: straight-line roof + pillars -->
+  <g transform="translate(60, 48)">
+    <!-- Outer roof - straight angled lines -->
+    <line x1="0" y1="-34" x2="-32" y2="-14" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="-34" x2="32" y2="-14" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Inner roof - smaller parallel lines -->
+    <line x1="0" y1="-25" x2="-20" y2="-11" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+    <line x1="0" y1="-25" x2="20" y2="-11" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+
+    <!-- Three pillars -->
+    <rect x="-22" y="-8" width="7" height="34" rx="1.5" fill="rgba(255,255,255,0.45)"/>
+    <rect x="-3.5" y="-8" width="7" height="34" rx="1.5" fill="rgba(255,255,255,0.9)"/>
+    <rect x="15" y="-8" width="7" height="34" rx="1.5" fill="rgba(255,255,255,0.6)"/>
+
+    <!-- Base -->
+    <rect x="-28" y="28" width="56" height="2.5" rx="1.25" fill="url(#gold)" opacity="0.7"/>
+  </g>
+
+  <!-- SB initials -->
+  <text x="60" y="108" text-anchor="middle" font-family="'Inter','Arial',sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.4)" letter-spacing="3">SB</text>
+</svg>
